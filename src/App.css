@@ -1,38 +1,66 @@
-.App {
+header {
+  background-color: #333333;
+  width: 100%;
+}
+
+body {
+  /* border: red 3px solid; */
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
   text-align: center;
+  font-size: 40px;
+  padding: 25px;
+}
+h2 {
+  font-size: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body p {
+  font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+jobs {
+  border: red 3px solid;
+}
+.jobsBox {
+  height: 300px;
+  width: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.red {
+  border: red 3px solid;
+}
+
+.blue {
+  border: blue 3px solid;
+}
+
+.green {
+  border: green 3px solid;
+}
+
+.yellow {
+  border: yellow 3px solid;
+}
+
+.pink {
+  border: pink 3px solid;
+}
+
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  background-color: #dddddd;
+  padding: 30px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer p {
+  text-align: center;
 }
