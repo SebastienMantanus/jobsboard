@@ -1,11 +1,12 @@
 header {
   background-color: #333333;
   width: 100%;
+  margin-bottom: 55px;
 }
 
 body {
   /* border: red 3px solid; */
-  gap: 20px;
+  /* gap: 20px; */
   flex-wrap: wrap;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -18,42 +19,81 @@ h1 {
   padding: 25px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 body p {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 jobs {
-  border: red 3px solid;
-}
-.jobsBox {
-  height: 300px;
-  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px;
+  margin: 0 auto;
+  justify-content: space-between;
+  /* border: red 8px solid; */
+  width: 1024px;
+  height: 100%;
 }
 
 .red {
-  border: red 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  border: #e30413 8px solid;
 }
 
 .blue {
-  border: blue 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  border: blue 8px solid;
 }
 
 .green {
-  border: green 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  border: #3ea535 8px solid;
 }
 
 .yellow {
-  border: yellow 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  border: #ffee00 8px solid;
 }
 
 .pink {
-  border: pink 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  border: #f8c5af 8px solid;
 }
 
 footer {
+  margin-top: 55px;
   display: flex;
   flex-direction: column;
   align-items: center;

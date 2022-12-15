@@ -1,6 +1,6 @@
 const Jobs = (props) => {
   return (
-    <div className="jobsBox">
+    <div className={props.className}>
       <h2>{props.title}</h2>
       <p>
         {props.contractType} - {props.country} - {props.city}
